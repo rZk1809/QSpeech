@@ -20,7 +20,7 @@ __dir__ = os.path.dirname(os.path.abspath(__dir__))
 sys.path.append(__dir__)
 sys.path.append(os.path.abspath(os.path.join(__dir__), "../.."))
 
-from QModels import QM5
+from QModels.QM5 import QM5
 from utils import utils
 
 waveform, sample_rate, label, speaker_id, utterance_number = train_set[0]

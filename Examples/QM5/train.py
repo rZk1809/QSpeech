@@ -17,7 +17,7 @@ __dir__ = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(__dir__)
 sys.path.append(os.path.abspath(os.path.join(__dir__, "../..")))
 
-from QModels.qm5 import QM5
+from QModels.QM5 import QM5
 from utils import utils
 
 #print(len(train_set))
