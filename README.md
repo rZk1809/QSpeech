@@ -36,7 +36,8 @@ For the hybrid quantum-classical neural networks in speech applications, we impl
 ## Basic framework
 - QCircuit: the variational quantum circuit(VQC) and low-qubit VQC.
 - QLayer: the qlstm, qgru, qattention, qconv.
-- QModels: the qm5, qtransformer, qtacotron.
+- QModels: the QM5, QTacotron and QTransformer-TTS models are now organized
+  into separate folders under `QModels`.
 
 ### Notes
 The code of qlstm and qtransformer are based on these two projects as follow: 
